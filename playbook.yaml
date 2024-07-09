@@ -5,7 +5,7 @@
   gather_facts: yes
 
   tasks:
-    - name: Install git
+    - name: Install tree
       yum:
-        name: git
+        name: tree
         state: present
